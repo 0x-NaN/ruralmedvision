@@ -1,0 +1,4 @@
+echo .venv/ > .gitignore
+echo models/ >> .gitignore
+echo __pycache__/ >> .gitignore
+echo *.pyc >> .gitignores
