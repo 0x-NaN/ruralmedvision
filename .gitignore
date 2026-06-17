@@ -1,4 +1,55 @@
-echo .venv/ > .gitignore
-echo models/ >> .gitignore
-echo __pycache__/ >> .gitignore
-echo *.pyc >> .gitignores
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# --- Virtual environment ---
+.venv/
+venv/
+env/
+
+# --- Large model artifacts (never commit) ---
+models/ruralmed_merged_fp16/
+models/ruralmed_adapter/*.safetensors
+models/ruralmed_adapter/*.bin
+*.gguf
+
+# Keep the small adapter config/tokenizer files tracked (optional, lightweight)
+# If you'd rather exclude the whole adapter folder from git and only ship it
+# via GitHub Releases, uncomment the line below instead:
+# models/ruralmed_adapter/
+
+# --- llama.cpp (external tool, not your code) ---
+llama.cpp/
+
+# --- Dataset (raw images, too large for git) ---
+data/HAM10000_images_part_1/
+data/HAM10000_images_part_2/
+data/processed/
+# Keep data/HAM10000_metadata.csv if it's small and you want it tracked
+
+# --- Hugging Face cache (should never be inside project anyway) ---
+.cache/
+
+# --- Local config (use config.example.yaml as template) ---
+configs/config.yaml
+
+# --- Personal scratch files ---
+notes.txt
+blank_ablation_patch.jpg
+
+# --- OS / Editor junk ---
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+
+# --- Jupyter ---
+*.ipynb_checkpoints
+
+# --- Logs / temp ---
+*.tmp
+
+# Note: training logs, metrics JSON, and result images are intentionally
+# NOT ignored — they're kept for the README and reproducibility.

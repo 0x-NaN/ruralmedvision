@@ -1,0 +1,1802 @@
+[
+    {
+        "image_id": "ISIC_0031082",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0033132",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0032219",
+        "true_dx": "mel",
+        "true_severity": "HIGH",
+        "pred_dx": "mel",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Melanoma"
+    },
+    {
+        "image_id": "ISIC_0034249",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0031535",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0027947",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0027193",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0029080",
+        "true_dx": "bkl",
+        "true_severity": "LOW",
+        "pred_dx": "bcc",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Basal Cell Carcinoma (BCC)"
+    },
+    {
+        "image_id": "ISIC_0032120",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0030395",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0029536",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0027400",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0024473",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mel)"
+    },
+    {
+        "image_id": "ISIC_0033921",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0029387",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0027687",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0026665",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0027923",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0030282",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0026655",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0033516",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mel)"
+    },
+    {
+        "image_id": "ISIC_0025783",
+        "true_dx": "mel",
+        "true_severity": "HIGH",
+        "pred_dx": "mel",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Melanoma"
+    },
+    {
+        "image_id": "ISIC_0026405",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0027715",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0030769",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0025598",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0025239",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0027134",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0031016",
+        "true_dx": "bkl",
+        "true_severity": "LOW",
+        "pred_dx": "bcc",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Basal Cell Carcinoma (BCC)"
+    },
+    {
+        "image_id": "ISIC_0025964",
+        "true_dx": "mel",
+        "true_severity": "HIGH",
+        "pred_dx": "mel",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Melanoma"
+    },
+    {
+        "image_id": "ISIC_0031039",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0025653",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0026883",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0025307",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0033660",
+        "true_dx": "bkl",
+        "true_severity": "LOW",
+        "pred_dx": "bcc",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Basal Cell Carcinoma (BCC)"
+    },
+    {
+        "image_id": "ISIC_0029266",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0030319",
+        "true_dx": "bkl",
+        "true_severity": "LOW",
+        "pred_dx": "bcc",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Basal Cell Carcinoma"
+    },
+    {
+        "image_id": "ISIC_0025828",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0026889",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0030325",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0026352",
+        "true_dx": "mel",
+        "true_severity": "HIGH",
+        "pred_dx": "mel",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Melanoma"
+    },
+    {
+        "image_id": "ISIC_0032012",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0033922",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0029240",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0030643",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mel)"
+    },
+    {
+        "image_id": "ISIC_0025993",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0032271",
+        "true_dx": "bkl",
+        "true_severity": "LOW",
+        "pred_dx": "bcc",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Basal Cell Carcinoma (BCC)"
+    },
+    {
+        "image_id": "ISIC_0034238",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0028927",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0025228",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mel)"
+    },
+    {
+        "image_id": "ISIC_0031248",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0029506",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0033251",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0031352",
+        "true_dx": "bkl",
+        "true_severity": "LOW",
+        "pred_dx": "bcc",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Basal Cell Carcinoma (BCC)"
+    },
+    {
+        "image_id": "ISIC_0028865",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0027989",
+        "true_dx": "bkl",
+        "true_severity": "LOW",
+        "pred_dx": "bcc",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Basal Cell Carcinoma"
+    },
+    {
+        "image_id": "ISIC_0027823",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mel)"
+    },
+    {
+        "image_id": "ISIC_0034202",
+        "true_dx": "mel",
+        "true_severity": "HIGH",
+        "pred_dx": "mel",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Melanoma"
+    },
+    {
+        "image_id": "ISIC_0028880",
+        "true_dx": "df",
+        "true_severity": "LOW",
+        "pred_dx": "bcc",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Basal Cell Carcinoma"
+    },
+    {
+        "image_id": "ISIC_0031622",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0025570",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mel)"
+    },
+    {
+        "image_id": "ISIC_0025029",
+        "true_dx": "akiec",
+        "true_severity": "MEDIUM",
+        "pred_dx": "akiec",
+        "pred_severity": "MEDIUM",
+        "confidence": 0.85,
+        "condition_name": "Actinic Keratosis"
+    },
+    {
+        "image_id": "ISIC_0025180",
+        "true_dx": "bkl",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Benign Keratosis"
+    },
+    {
+        "image_id": "ISIC_0032398",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0029643",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0030867",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0031589",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0033481",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0028586",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0030270",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mel)"
+    },
+    {
+        "image_id": "ISIC_0024715",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0032273",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0030561",
+        "true_dx": "bkl",
+        "true_severity": "LOW",
+        "pred_dx": "bcc",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Basal Cell Carcinoma (BCC)"
+    },
+    {
+        "image_id": "ISIC_0025622",
+        "true_dx": "df",
+        "true_severity": "LOW",
+        "pred_dx": "bcc",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Basal Cell Carcinoma"
+    },
+    {
+        "image_id": "ISIC_0027939",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mel)"
+    },
+    {
+        "image_id": "ISIC_0031974",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0031647",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0031495",
+        "true_dx": "bkl",
+        "true_severity": "LOW",
+        "pred_dx": "bcc",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Basal Cell Carcinoma (BCC)"
+    },
+    {
+        "image_id": "ISIC_0029475",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0024770",
+        "true_dx": "bkl",
+        "true_severity": "LOW",
+        "pred_dx": "bcc",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Basal Cell Carcinoma"
+    },
+    {
+        "image_id": "ISIC_0028097",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mel)"
+    },
+    {
+        "image_id": "ISIC_0030699",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mel)"
+    },
+    {
+        "image_id": "ISIC_0027133",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0030780",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0030840",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0024635",
+        "true_dx": "bkl",
+        "true_severity": "LOW",
+        "pred_dx": "bcc",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Basal Cell Carcinoma"
+    },
+    {
+        "image_id": "ISIC_0024842",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0025855",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mel)"
+    },
+    {
+        "image_id": "ISIC_0027124",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0031582",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0027018",
+        "true_dx": "bkl",
+        "true_severity": "LOW",
+        "pred_dx": "bcc",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Basal Cell Carcinoma (BCC)"
+    },
+    {
+        "image_id": "ISIC_0027568",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0028947",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0033788",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0032914",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mel)"
+    },
+    {
+        "image_id": "ISIC_0025393",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0025386",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0024815",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0030910",
+        "true_dx": "mel",
+        "true_severity": "HIGH",
+        "pred_dx": "mel",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Melanoma"
+    },
+    {
+        "image_id": "ISIC_0033213",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mel)"
+    },
+    {
+        "image_id": "ISIC_0033214",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0031284",
+        "true_dx": "bcc",
+        "true_severity": "HIGH",
+        "pred_dx": "bcc",
+        "pred_severity": "MEDIUM",
+        "confidence": 0.85,
+        "condition_name": "Basal Cell Carcinoma (BCC)"
+    },
+    {
+        "image_id": "ISIC_0033592",
+        "true_dx": "bkl",
+        "true_severity": "LOW",
+        "pred_dx": "bcc",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Basal Cell Carcinoma (BCC)"
+    },
+    {
+        "image_id": "ISIC_0027851",
+        "true_dx": "bcc",
+        "true_severity": "HIGH",
+        "pred_dx": "bcc",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Basal Cell Carcinoma (BCC)"
+    },
+    {
+        "image_id": "ISIC_0027682",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0024802",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0032796",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0031446",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0031477",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0026237",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0028545",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0025688",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0030246",
+        "true_dx": "mel",
+        "true_severity": "HIGH",
+        "pred_dx": "mel",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Melanoma"
+    },
+    {
+        "image_id": "ISIC_0034000",
+        "true_dx": "mel",
+        "true_severity": "HIGH",
+        "pred_dx": "mel",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Melanoma"
+    },
+    {
+        "image_id": "ISIC_0024327",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0031463",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0033064",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0032345",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0033052",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0033702",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0031686",
+        "true_dx": "bkl",
+        "true_severity": "LOW",
+        "pred_dx": "bcc",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Basal Cell Carcinoma (BCC)"
+    },
+    {
+        "image_id": "ISIC_0027146",
+        "true_dx": "bcc",
+        "true_severity": "HIGH",
+        "pred_dx": "bcc",
+        "pred_severity": "MEDIUM",
+        "confidence": 0.85,
+        "condition_name": "Basal Cell Carcinoma (BCC)"
+    },
+    {
+        "image_id": "ISIC_0028472",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0031468",
+        "true_dx": "bkl",
+        "true_severity": "LOW",
+        "pred_dx": "bcc",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Basal Cell Carcinoma (BCC)"
+    },
+    {
+        "image_id": "ISIC_0032884",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0028316",
+        "true_dx": "bcc",
+        "true_severity": "HIGH",
+        "pred_dx": "bcc",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Basal Cell Carcinoma (BCC)"
+    },
+    {
+        "image_id": "ISIC_0028060",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mel)"
+    },
+    {
+        "image_id": "ISIC_0033309",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0027015",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0026121",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0033403",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0033239",
+        "true_dx": "mel",
+        "true_severity": "HIGH",
+        "pred_dx": "mel",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Melanoma"
+    },
+    {
+        "image_id": "ISIC_0027937",
+        "true_dx": "vasc",
+        "true_severity": "MEDIUM",
+        "pred_dx": "vasc",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Vascular Lesion"
+    },
+    {
+        "image_id": "ISIC_0032595",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0027513",
+        "true_dx": "bkl",
+        "true_severity": "LOW",
+        "pred_dx": "bcc",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Basal Cell Carcinoma (BCC)"
+    },
+    {
+        "image_id": "ISIC_0034156",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0033816",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0027563",
+        "true_dx": "vasc",
+        "true_severity": "MEDIUM",
+        "pred_dx": "vasc",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Vascular Lesion"
+    },
+    {
+        "image_id": "ISIC_0032421",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0033244",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0026410",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0027866",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0033299",
+        "true_dx": "mel",
+        "true_severity": "HIGH",
+        "pred_dx": "mel",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Melanoma"
+    },
+    {
+        "image_id": "ISIC_0029070",
+        "true_dx": "bkl",
+        "true_severity": "LOW",
+        "pred_dx": "bcc",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Basal Cell Carcinoma (BCC)"
+    },
+    {
+        "image_id": "ISIC_0024781",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0032797",
+        "true_dx": "mel",
+        "true_severity": "HIGH",
+        "pred_dx": "mel",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Melanoma"
+    },
+    {
+        "image_id": "ISIC_0032311",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0026340",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0032669",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0027527",
+        "true_dx": "bkl",
+        "true_severity": "LOW",
+        "pred_dx": "bcc",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Basal Cell Carcinoma (BCC)"
+    },
+    {
+        "image_id": "ISIC_0033314",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0025929",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0027824",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mel)"
+    },
+    {
+        "image_id": "ISIC_0031559",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0028378",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0031494",
+        "true_dx": "mel",
+        "true_severity": "HIGH",
+        "pred_dx": "mel",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Melanoma"
+    },
+    {
+        "image_id": "ISIC_0030439",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mel)"
+    },
+    {
+        "image_id": "ISIC_0026129",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0024339",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0030766",
+        "true_dx": "bcc",
+        "true_severity": "HIGH",
+        "pred_dx": "bcc",
+        "pred_severity": "MEDIUM",
+        "confidence": 0.85,
+        "condition_name": "Basal Cell Carcinoma (BCC)"
+    },
+    {
+        "image_id": "ISIC_0033709",
+        "true_dx": "bkl",
+        "true_severity": "LOW",
+        "pred_dx": "bcc",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Basal Cell Carcinoma"
+    },
+    {
+        "image_id": "ISIC_0032833",
+        "true_dx": "mel",
+        "true_severity": "HIGH",
+        "pred_dx": "mel",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Melanoma"
+    },
+    {
+        "image_id": "ISIC_0029002",
+        "true_dx": "akiec",
+        "true_severity": "MEDIUM",
+        "pred_dx": "akiec",
+        "pred_severity": "MEDIUM",
+        "confidence": 0.85,
+        "condition_name": "Actinic Keratosis"
+    },
+    {
+        "image_id": "ISIC_0033585",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0030991",
+        "true_dx": "akiec",
+        "true_severity": "MEDIUM",
+        "pred_dx": "akiec",
+        "pred_severity": "MEDIUM",
+        "confidence": 0.85,
+        "condition_name": "Actinic Keratosis"
+    },
+    {
+        "image_id": "ISIC_0032424",
+        "true_dx": "mel",
+        "true_severity": "HIGH",
+        "pred_dx": "mel",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Melanoma"
+    },
+    {
+        "image_id": "ISIC_0029111",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0028013",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0028036",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mel)"
+    },
+    {
+        "image_id": "ISIC_0027422",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0025090",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0030667",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0026023",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0027258",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0030824",
+        "true_dx": "mel",
+        "true_severity": "HIGH",
+        "pred_dx": "mel",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Melanoma"
+    },
+    {
+        "image_id": "ISIC_0029153",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0024719",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0026053",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0028645",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mel)"
+    },
+    {
+        "image_id": "ISIC_0024822",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0028168",
+        "true_dx": "bcc",
+        "true_severity": "HIGH",
+        "pred_dx": "bcc",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Basal Cell Carcinoma (BCC)"
+    },
+    {
+        "image_id": "ISIC_0026265",
+        "true_dx": "bkl",
+        "true_severity": "LOW",
+        "pred_dx": "bcc",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Basal Cell Carcinoma (BCC)"
+    },
+    {
+        "image_id": "ISIC_0027595",
+        "true_dx": "bcc",
+        "true_severity": "HIGH",
+        "pred_dx": "bcc",
+        "pred_severity": "MEDIUM",
+        "confidence": 0.85,
+        "condition_name": "Basal Cell Carcinoma (BCC)"
+    },
+    {
+        "image_id": "ISIC_0025244",
+        "true_dx": "vasc",
+        "true_severity": "MEDIUM",
+        "pred_dx": "vasc",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Vascular Lesion"
+    },
+    {
+        "image_id": "ISIC_0029020",
+        "true_dx": "bcc",
+        "true_severity": "HIGH",
+        "pred_dx": "bcc",
+        "pred_severity": "MEDIUM",
+        "confidence": 0.85,
+        "condition_name": "Basal Cell Carcinoma (BCC)"
+    },
+    {
+        "image_id": "ISIC_0031927",
+        "true_dx": "akiec",
+        "true_severity": "MEDIUM",
+        "pred_dx": "akiec",
+        "pred_severity": "MEDIUM",
+        "confidence": 0.85,
+        "condition_name": "Actinic Keratosis"
+    },
+    {
+        "image_id": "ISIC_0032437",
+        "true_dx": "akiec",
+        "true_severity": "MEDIUM",
+        "pred_dx": "nv",
+        "pred_severity": "MEDIUM",
+        "confidence": 0.85,
+        "condition_name": "Actinic Keratosis"
+    },
+    {
+        "image_id": "ISIC_0029163",
+        "true_dx": "mel",
+        "true_severity": "HIGH",
+        "pred_dx": "mel",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Melanoma"
+    },
+    {
+        "image_id": "ISIC_0028634",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0033995",
+        "true_dx": "mel",
+        "true_severity": "HIGH",
+        "pred_dx": "mel",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Melanoma"
+    },
+    {
+        "image_id": "ISIC_0029040",
+        "true_dx": "bkl",
+        "true_severity": "LOW",
+        "pred_dx": "bcc",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Basal Cell Carcinoma (BCC)"
+    },
+    {
+        "image_id": "ISIC_0024881",
+        "true_dx": "bkl",
+        "true_severity": "LOW",
+        "pred_dx": "bcc",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Basal Cell Carcinoma (BCC)"
+    },
+    {
+        "image_id": "ISIC_0034251",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0034231",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "nv",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0031929",
+        "true_dx": "akiec",
+        "true_severity": "MEDIUM",
+        "pred_dx": "akiec",
+        "pred_severity": "MEDIUM",
+        "confidence": 0.85,
+        "condition_name": "Actinic Keratosis"
+    },
+    {
+        "image_id": "ISIC_0026826",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0032197",
+        "true_dx": "mel",
+        "true_severity": "HIGH",
+        "pred_dx": "mel",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Melanoma"
+    },
+    {
+        "image_id": "ISIC_0033807",
+        "true_dx": "mel",
+        "true_severity": "HIGH",
+        "pred_dx": "mel",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Melanoma"
+    },
+    {
+        "image_id": "ISIC_0030248",
+        "true_dx": "nv",
+        "true_severity": "LOW",
+        "pred_dx": "mel",
+        "pred_severity": "LOW",
+        "confidence": 0.85,
+        "condition_name": "Melanocytic Nevus (Mole)"
+    },
+    {
+        "image_id": "ISIC_0028512",
+        "true_dx": "mel",
+        "true_severity": "HIGH",
+        "pred_dx": "mel",
+        "pred_severity": "HIGH",
+        "confidence": 0.85,
+        "condition_name": "Melanoma"
+    }
+]
