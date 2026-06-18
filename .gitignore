@@ -9,28 +9,32 @@ __pycache__/
 venv/
 env/
 
-# --- Large model artifacts (never commit) ---
+# --- Large model artifacts (regenerable, kept on external HDD) ---
 models/ruralmed_merged_fp16/
-models/ruralmed_adapter/*.safetensors
-models/ruralmed_adapter/*.bin
 *.gguf
-
-# Keep the small adapter config/tokenizer files tracked (optional, lightweight)
-# If you'd rather exclude the whole adapter folder from git and only ship it
-# via GitHub Releases, uncomment the line below instead:
-# models/ruralmed_adapter/
+*.bin
+models/ruralmed_adapter/*.safetensors
+# Note: adapter_model.safetensors is intentionally excluded from git history
+# (1GB+, exceeds comfortable repo size) -- distributed via GitHub Releases instead.
+# All adapter config/tokenizer files remain tracked since they're small and useful.
 
 # --- llama.cpp (external tool, not your code) ---
 llama.cpp/
 
-# --- Dataset (raw images, too large for git) ---
+# --- Dataset (raw images + flattened CSV variants, too large for git) ---
 data/HAM10000_images_part_1/
 data/HAM10000_images_part_2/
 data/processed/
-# Keep data/HAM10000_metadata.csv if it's small and you want it tracked
+data/hmnist_28_28_L.csv
+data/hmnist_28_28_RGB.csv
+data/hmnist_8_8_L.csv
+data/hmnist_8_8_RGB.csv
+data/ham_test.csv
+# Keep data/HAM10000_metadata.csv tracked (small, needed for reproducibility)
 
 # --- Hugging Face cache (should never be inside project anyway) ---
 .cache/
+huggingface_cache/
 
 # --- Local config (use config.example.yaml as template) ---
 configs/config.yaml
@@ -45,11 +49,10 @@ Thumbs.db
 .vscode/
 *.swp
 
-# --- Jupyter ---
-*.ipynb_checkpoints
-
 # --- Logs / temp ---
 *.tmp
 
-# Note: training logs, metrics JSON, and result images are intentionally
-# NOT ignored — they're kept for the README and reproducibility.
+# Note: training_history.json, ablation_results.json, baseline_results.json,
+# ft_results.json, metrics.json, and result PNGs are intentionally NOT
+# ignored -- they're real evaluation outputs, kept for the README and
+# reproducibility.

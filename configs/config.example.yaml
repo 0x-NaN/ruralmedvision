@@ -1,0 +1,74 @@
+# RuralMedVision Configuration
+# Copy this file to config.yaml and adjust paths/settings for your machine.
+# config.yaml is gitignored so your local setup never overwrites this template.
+
+model:
+  name: "Qwen/Qwen2.5-VL-7B-Instruct"
+  adapter_path: "models/ruralmed_adapter"
+  load_in_4bit: true
+  bnb_4bit_compute_dtype: "float16"
+  bnb_4bit_quant_type: "nf4"
+  use_nested_quant: false
+  quantized_path: "models/ruralmed_q4.gguf"
+
+lora:
+  r: 16
+  lora_alpha: 32
+  lora_dropout: 0.05
+  bias: "none"
+  target_modules:
+    - "q_proj"
+    - "v_proj"
+    - "k_proj"
+    - "o_proj"
+    - "gate_proj"
+    - "up_proj"
+    - "down_proj"
+
+data:
+  ham10000_meta: "data/HAM10000_metadata.csv"
+  # Download HAM10000 from https://doi.org/10.7910/DVN/DBW86T and place
+  # the two image part folders here (paths are relative to project root).
+  ham10000_images:
+    - "data/HAM10000_images_part_1"
+    - "data/HAM10000_images_part_2"
+  healthcaremagic_samples: 1000
+  processed_dir: "data/processed"
+  train_jsonl: "data/processed/train.jsonl"
+  val_jsonl: "data/processed/val.jsonl"
+  max_train_samples: 2000
+  max_val_samples: 200
+
+training:
+  output_dir: "models/checkpoints"
+  num_train_epochs: 5
+  per_device_train_batch_size: 1
+  per_device_eval_batch_size: 1
+  gradient_accumulation_steps: 8
+  learning_rate: 2.0e-4
+  weight_decay: 0.01
+  warmup_ratio: 0.03
+  lr_scheduler_type: "cosine"
+  save_steps: 25
+  eval_steps: 25
+  logging_steps: 5
+  fp16: true
+  dataloader_num_workers: 0
+  remove_unused_columns: false
+  save_total_limit: 2
+  image_size: 128
+  max_train_samples: 2000
+  max_val_samples: 200
+
+evaluation:
+  results_dir: "Results"
+  figures_dir: "Results/figures"
+  mc_dropout_samples: 10
+  severity_classes:
+    - "LOW"
+    - "MEDIUM"
+    - "HIGH"
+
+quantization:
+  gguf_output: "models/ruralmed_q4.gguf"
+  quantization_type: "q4_k_m"
