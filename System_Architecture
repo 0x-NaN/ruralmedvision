@@ -1,0 +1,104 @@
+```
+                                  [START: RAW INPUT ASSETS]
+                        ┌──────────────────────────────────────────┐
+                        │ - HAM10000 Skin Lesion Images            │
+                        │ - HealthCareMagic Text Interaction Logs  │
+                        │ - Dataset Metadata (HAM10000_metadata.csv)│
+                        └────────────────────┬─────────────────────┘
+                                             │
+                                             ▼
+                                ┌──────────────────────────┐
+                                │     src/data_prep.py     │
+                                └────────────┬─────────────┘
+                                             │ 1. Enforces Seed-Disjoint Patient Split
+                                             │ 2. Normalizes Image Spatial Resolutions
+                                             │ 3. Maps Diagnoses to Severity Tiers
+                                             │ 4. Structures Conversations with Qwen2.5-VL Tokens
+                                             ▼
+                               [SANITIZED MULTIMODAL DATASET]
+                                             │
+                      ┌──────────────────────┴──────────────────────┐
+                      │                                             │
+                      ▼ (Training Split)                            ▼ (Held-Out Split)
+        ┌──────────────────────────┐                  ┌──────────────────────────┐
+        │       src/train.py       │                  │     src/evaluate.py      │
+        └─────────────┬────────────┘                  └─────────────▲────────────┘
+                      │                                             │
+                      ├─► [BitsAndBytes Layer]                      │ Evaluates Predictions
+                      │   (Quantizes base model to 4-bit)           │ (Generates ft_results.json)
+                      │                                             │
+                      ├─► [PEFT Adapter Loop]                       │
+                      │   (Targets q_proj, v_proj, vision linear)   │
+                      │                                             │
+                      ▼                                             │
+        [models/ruralmed_adapter/]                                  │
+        (Tiny ~1GB fine-tuned weights)                              │
+                      │                                             │
+                      ▼                                             │
+        ┌──────────────────────────┐                                │
+        │     merge_weights.py     │                                │
+        └─────────────┬────────────┘                                │
+                      │                                             │
+                      ├─► Sanitizes adapter_config.json against PEFT │
+                      ├─► Mathematically bakes adapter into base matrix
+                      │                                             │
+                      ▼                                             │
+        [models/ruralmed_merged_fp16/]                              │
+                      │                                             │
+                      ▼                                             │
+        ┌──────────────────────────┐                                │
+        │     src/quantize.py      │                                │
+        └─────────────┬────────────┘                                │
+                      │                                             │
+                      ├─► Compiles layers using llama.cpp backend   │
+                      ├─► Compresses matrices to Q4_K_M precision  │
+                      │                                             │
+                      ▼                                             │
+       [FINAL PRODUCTION ARTIFACT]                                  │
+       (4.36GB GGUF for offline edge VRAM) ─────────────────────────┤
+                      │                                             │
+                      │ Consumed by Local Production                │ Consumed by Notebook
+                      ▼                                             ▼
+        ┌──────────────────────────┐                  ===================================
+        │    src/inference.py      │                  ║    RuralMed_Evaluation.ipynb    ║
+        └─────────────┬────────────┘                  ===================================
+                      │                                             ║
+                      ├─► Runs local production                     ╠═► [1. HEAD-TO-HEAD BENCHMARK]
+                      │   encounters for clinical                   ║   Loads baseline_results.json vs
+                      │   decision support                          ║   ft_results.json & ablation data.
+                      │                                             ║
+                      ▼                                             ╠═► [2. STATISTICAL ENGINE]
+             [CLINICAL PRODUCTION]                                  ║   Computes Accuracy, Cohen's Kappa,
+                                                                    ║   and MCC. Writes metrics.json.
+                                                                    ║
+                                                                    ╠═► [3. CORE VISUALIZER]
+                                                                    ║   Calculates occlusion matrices &
+                                                                    ║   fires serverless API rationale calls.
+                                                                    ▼
+                                                       ┌──────────────────────────┐
+                                                       │  Leakage Guard Filter    │
+                                                       └────────────┬─────────────┘
+                                                                    │ Drops "Forum Soup"
+                                                                    ▼
+                                                      =================================
+                                                      ║     RuralMed_API_Grid.png     ║
+                                                      ║ (Publication-Ready XAI Figure)║
+                                                      =================================
+
+```
+
+---
+
+### The Three Touchpoints of `RuralMed_Evaluation.ipynb`
+
+### 1. The Historical Arbitrator (Benchmarking)
+
+The notebook is completely separated from the training loop to maintain mathematical isolation. It serves as an analytical dashboard, pulling in the historical raw prediction JSON logs (`baseline_results.json`, `ft_results.json`, and `ablation_results.json`) to run the comparative evaluations that prove your model's 85% accuracy jump over the baseline.
+
+### 2. The Publication Metrics Lab
+
+Instead of writing complex scientific graphing libraries into your clean automation source scripts, you offloaded all statistical visualization to the notebook. It takes the output predictions of `src/evaluate.py`, computes the macro-averages for imbalanced classes, plots your final **Confusion Matrix**, evaluates **Cohen's Kappa / MCC**, and saves the frozen mathematical state down to `metrics.json`.
+
+### 3. The Structural Parent of `RuralMed_API_Grid.png`
+
+The notebook contains the exact matrix compilation blocks that construct your paper's core diagram. It loads a target sample from the held-out split, runs the local vision occlusion math to generate the heatmap, calls the serverless `InferenceClient` (using your constrained `temperature=0.3` and `no_repeat_ngram_size=3` hooks) to get the rationale text, and uses Matplotlib/Pillow to stitch them together into the final image asset.
