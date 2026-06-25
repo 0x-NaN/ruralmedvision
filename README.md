@@ -35,8 +35,13 @@ This is a research prototype, not a deployed clinical tool. Limitations are docu
 | Metric | Zero-Shot Baseline | RuralMed Vision (Fine-tuned) |
 |---|---|---|
 | Severity accuracy | 13.0% | **85.0%** |
+<<<<<<< HEAD
+| Cohen's Kappa | 0.014 | **0.608** |
+| Matthews Correlation | 0.030 | **0.631** |
+=======
 | Cohen's Kappa | 0.020 | **0.611** |
 | Matthews Correlation | 0.045 | **0.636** |
+>>>>>>> 46850c23848c893467ba9870132fe972877cabfa
 | Expected Calibration Error | -- | 0.430 (severe overconfidence) |
 
 Evaluated on n=200 samples drawn from a 3,005-sample held-out test set (seed-disjoint from training). Full per-class breakdown and methodology in [`RuralMed_Evaluation.ipynb`](RuralMed_Evaluation.ipynb).
