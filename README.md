@@ -99,7 +99,7 @@ Input: [Skin Lesion Image] + [Symptom Text]
 
 ## Known Limitations
 
-This project intentionally reports negative findings alongside the headline result -- see [`paper/content.md`](paper/content.md) for the full writeup.
+This project intentionally reports negative findings alongside the headline result -- full writeup yet to be written.
 
 - **Diagnostic-level mode collapse.** While severity-tier accuracy is 85.0%, the underlying 7-class confusion matrix shows the model defaulting toward melanoma/nevi for ambiguous lesions; basal cell carcinoma and actinic keratosis are essentially unrepresented in the model's effective output distribution at n=200.
 - **Severe confidence miscalibration.** ECE = 0.43 -- the model is consistently overconfident regardless of correctness. Calibration correction (temperature scaling, etc.) is future work.
